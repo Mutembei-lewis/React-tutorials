@@ -1,0 +1,87 @@
+.customnavbar{
+    position: absolute;
+    width: 100vw;
+    top:0;
+    left:0;
+    background: #C02425;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #F0CB35, #C02425);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #F0CB35, #C02425); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.customBox{
+    
+    position: relative;
+    top: 30%;
+    width:90%;
+    height:30vh;
+    padding: 3px 4px;
+    box-sizing: border-box;
+}
+.personalinput{
+    border: 0px solid black;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    display: none;
+
+}
+::placeholder{
+    color:white;
+}
+.personalinput:hover,.personalinput:focus{
+    border: 0px solid black;
+    border-bottom: 1px solid white;
+    outline: none;
+    background-color: transparent;
+    color: white;
+}
+.welcomeText{
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+    line-height: 30px;
+  
+    margin: 6px;
+    text-align: center;
+    padding: 10px;
+    height: 50px;
+}
+.blocktodelete{
+    position: relative;
+    width: 100px;
+    border-radius: 6px;
+    height: 40px;
+    border:0px solid blue;
+   
+    background: #12c2e9;  /* fallback for old browsers*/
+background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* Chrome 10-25, Safari 5.1-6*/
+background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+.blocktodelete:hover, .blocktodelete:active{
+    position: relative;
+    width: 100px;
+    border-radius: 6px;
+    height: 40px;
+    outline:none;
+    border:0px solid blue;
+     background: #12c2e9;/*  fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);/*  Chrome 10-25, Safari 5.1-6*/
+background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/
+
+}
+.classictext{
+    width: 90%;
+    height: 90px;
+    position: absolute;
+    top:40%;
+    padding:6px;
+    /* background-color: rgb(7, 6, 6); */
+    
+    font-size: 16px;
+    word-spacing: 2px;
+    letter-spacing: 0.9px;
+    font-weight: 600;
+}
+
